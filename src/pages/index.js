@@ -1,12 +1,12 @@
 import React from 'react';
-import HomeHelmet from '../components/home-helmet';
+import RevolveHelmet from '../components/helmet';
 import HomeHeader from '../components/home-header';
 
 const IndexPage = () => (
-    <div>
-        <HomeHelmet />
+    <React.Fragment>
+        <RevolveHelmet pageTitle='Home' />
         <HomeHeader />
-    </div>
+    </React.Fragment>
 );
 
 export default IndexPage;

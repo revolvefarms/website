@@ -1,16 +1,16 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Gatsby Bulma Quickstart',
-		author: 'Aman Mittal',
-		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
-		twitter: 'https://twitter.com/amanhimself',
-		github: `https://github.com/amandeepmittal`,
-		medium: 'https://medium.com/@amanhimself',
+		title: 'Revolve Farms',
+		author: 'Kyle Platt',
+		imageUrl: 'https://www.dropbox.com/s/h59o8m37vsanpam/revolve-farms-main-logo.png?raw=1',
+		description: 'Revolve Farms public website.',
+		keywords: `Greenhouse, Energy Efficient, Year-Round Growth, Midwest, Climate Battery,`,
+		github: `https://github.com/revolvefarms`,
+		facebook: 'https://www.facebook.com/RevolveFarms/',
+		instagram: 'https://www.instagram.com/revolvefarms/',
 		gatsby: 'https://www.gatsbyjs.org/',
 		bulma: 'https://bulma.io/',
-		siteUrl: `https://www.example.com`
+		siteUrl: `https://www.revolvefarms.com`
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
