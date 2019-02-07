@@ -1,7 +1,12 @@
 import React from 'react';
+import HomeHelmet from '../components/home-helmet';
+import HomeHeader from '../components/home-header';
 
-import Layout from '../components/layout';
-
-const IndexPage = () => <Layout />;
+const IndexPage = () => (
+    <div>
+        <HomeHelmet />
+        <HomeHeader />
+    </div>
+);
 
 export default IndexPage;

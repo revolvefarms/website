@@ -4,26 +4,82 @@
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 
-.gradientBg {
-	display: flex;
-	background: linear-gradient(to right, $primary-color, $secondary-color);
+#home-freshcycle {
+	background: black url('../images/rf-greenhouse-front-web-res.jpg') center / cover;
 }
 
-.center {
+#lets-talk-header {
+	background: #f3f3f3 center / cover;
+}
+
+@media (max-width: 1024px) { #home-freshcycle { background: black url('../images/rf-greenhouse-front-web-res.jpg') center / cover; }}
+@media (max-width: 768px) { #home-freshcycle { background: black url('../images/rf-greenhouse-front-mobile.jpg') center / cover; }}
+
+#rf-logo {
+	width: 28px;
+	height: 28px;
+}
+
+#contact-us {
+	padding-left: 40px;
+}
+
+#contact-page {
+	top: 100px;
+	padding-left: 25px;
+}
+
+#phone {
+	padding-top: 30px;
+}
+
+#email {
+	padding-top: 30px;
+}
+
+#top-header {
+	top: 82px;
+}
+
+#middle-header {
+	top: 150px;
+}
+
+#description {
+	top: 220px;
+}
+
+#inquire-btn {
+	width: 150px;
+	border: 0.15em solid white;
+	bottom: 60px;
+}
+
+#inquire-btn:hover {
+	color: black;
+}
+
+.center, .center-column, .top, .right, .bottom, .left {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.footer {
-	display: flex;
-	padding: 1.5rem 1.5rem;
-	line-height: 1.5rem;
-	a {
-		border-bottom: 1px solid;
-		color: black;
-	}
-	a:hover {
-		color: $secondary-color;
+.center-column {
+	flex-direction: column;
+}
+
+.top { align-items: flex-start; }
+.right { justify-content: flex-end; }
+.bottom { align-items: flex-end; }
+.left { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+	line-height: 1;
+}
+
+@media (max-width: 1024px) {
+	.desktop {
+		display: none;
 	}
 }
