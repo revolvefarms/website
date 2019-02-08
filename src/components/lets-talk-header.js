@@ -11,7 +11,7 @@ class LetsTalkHeader extends React.Component {
 				<div className="hero-body">
 					<div id="middle-header" className="is-overlay has-text-centered">
 						<h2 className="title is-2 has-text-black">Contact Us</h2>
-						<p className="has-text-black">
+						<p id="lets-talk-p" className="has-text-black">
 						We’re happy to answer any question you may have.
 						Please reach out and we will get back to you as soon as we can.
 						</p>
