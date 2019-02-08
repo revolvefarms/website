@@ -15,8 +15,8 @@ class LetsTalkHeader extends React.Component {
 						We’re happy to answer any question you may have.
 						Please reach out and we will get back to you as soon as we can.
 						</p>
-						<p id="phone"><strong>Phone:</strong> (734) 623-9270</p>
-						<p id="email"><strong>Email Address:</strong> info@revolvefarms.com</p>
+						<p><strong>Phone:</strong> (734) 623-9270</p>
+						<p><strong>Email Address:</strong> info@revolvefarms.com</p>
 					</div>
 				</div>
 			</section>
