@@ -1,10 +1,10 @@
 module.exports = {
 	siteMetadata: {
 		title: 'Revolve Farms',
-		author: 'Kyle Platt',
+		author: 'Revolve Farms',
 		imageUrl: 'https://www.dropbox.com/s/h59o8m37vsanpam/revolve-farms-main-logo.png?raw=1',
 		description: 'Revolve Farms public website.',
-		keywords: `Greenhouse, Energy Efficient, Year-Round Growth, Midwest, Climate Battery,`,
+		keywords: `Greenhouse, Energy Efficient, Year-Round Growth, Midwest, Climate Battery, Subterrainian Heating and Cooling System`,
 		github: `https://github.com/revolvefarms`,
 		facebook: 'https://www.facebook.com/RevolveFarms/',
 		instagram: 'https://www.instagram.com/revolvefarms/',

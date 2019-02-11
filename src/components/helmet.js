@@ -2,7 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 
-class RevolveHelmet extends React.Component {
+class PageHelmet extends React.Component {
 	render () {
 	  return (
 		<StaticQuery
@@ -27,13 +27,13 @@ class RevolveHelmet extends React.Component {
 				/>
 				<meta name="description" content={data.site.siteMetadata.description} />
 				<meta name="keywords" content={data.site.siteMetadata.keywords} />
-				<title>{this.props.pageTitle + ' | ' + data.site.siteMetadata.title}</title>
+				<title>{this.props.pageName + ' | ' + data.site.siteMetadata.title}</title>
 				<html lang="en" />
 				{/* Google / Search Engine Meta Tags */}
-				<meta itemprop="name" content={data.site.siteMetadata.author} /> />
+				<meta itemprop="name" content={this.props.pageTitle} /> />
 				<meta
 					itemprop="description"
-					content={data.site.siteMetadata.description}
+					content={this.props.pageDescription}
 				/>
 				<meta itemprop="image" content={data.site.siteMetadata.imageUrl} /> />
 			</Helmet>
@@ -43,4 +43,4 @@ class RevolveHelmet extends React.Component {
 	}
   };
 
-export default RevolveHelmet;
+export default PageHelmet;
