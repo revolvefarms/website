@@ -34,16 +34,31 @@
 }
 
 #description {
-	top: 220px;
+	top: 150px;
 }
 
 #inquire-btn {
-	width: 150px;
+	width: 180px;
+	color: black;
+	background-color: white;
 	border: 0.15em solid white;
-	bottom: 60px;
+	bottom: 50px;
+	margin-bottom: 10px;
 }
 
 #inquire-btn:hover {
+	background-color: #f3f3f3;
+	border: 0.15em solid #f3f3f3;
+}
+
+#learn-more-btn {
+	width: 180px;
+	border: 0.15em solid white;
+	bottom: 50px;
+	margin-bottom: 10px;
+}
+
+#learn-more-btn:hover {
 	color: black;
 }
 
@@ -70,4 +85,20 @@
 	.desktop {
 		display: none;
 	}
+}
+
+.bottom-hero-grid {
+	width: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 512px) {
+	.bottom-hero-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.hero-foot {
+	padding: 2rem;
 }
