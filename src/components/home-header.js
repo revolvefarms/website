@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import Navbar from './navbar';
-import brochure from '../files/Revolve-Farms-Brochure.pdf';
+import brochure from '../files/Revolve-Farms-Web-Brochure.pdf';
 
 const HomeHeader = () => (
 	<section id="home-freshcycle" className="hero is-fullheight">
